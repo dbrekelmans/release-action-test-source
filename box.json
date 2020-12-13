@@ -1,0 +1,15 @@
+{
+    "main": "bdi",
+    "output": ".dist/bdi.phar",
+    "alias": "bdi.phar",
+    "files": [
+        "bdi"
+    ],
+    "directories": [
+        "src",
+        "vendor"
+    ],
+    "blacklist": [
+        "vendor/bin"
+    ]
+}
