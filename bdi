@@ -21,7 +21,7 @@ use Symfony\Component\HttpClient\NativeHttpClient;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$application = new Application();
+$application = new Application('bdi', '0.1');
 
 $httpClient = new NativeHttpClient();
 $filesystem = new Filesystem();
